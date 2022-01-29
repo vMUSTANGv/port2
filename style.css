@@ -174,3 +174,134 @@ dd {
 .nav-link:hover {
     color: #BDAE82;
 }
+
+/* --------------------MAIN----------------------- */
+/* --------------------MAIN----------------------- */
+/* --------------------MAIN----------------------- */
+
+
+
+
+/* --------------------FOOTER----------------------- */
+/* --------------------FOOTER----------------------- */
+/* --------------------FOOTER----------------------- */
+
+.footer {
+    
+
+    
+}
+.footer_container {
+    /* border: 2px solid rgb(214, 2, 2); */
+    min-height: 150px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    
+}
+
+.footer-flex {
+    /* border: 2px solid rgb(143, 15, 15); */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding-left: 12px;
+    padding-right: 10px;
+    
+}
+
+@media (max-width: 650px) {
+    .footer-flex {
+        flex-direction: column;
+    }
+
+    .footer-block {
+        
+        
+    }
+}
+
+
+.footer-block {
+    
+}
+.footer-block1 {
+    /* border: 1px solid rgb(163, 7, 7); */
+    display: inline-block;
+    width: 185px;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color:rgb(255, 255, 255);
+
+}
+.sym::after {
+    content: '\A9';
+
+}
+
+.year-block1 {
+    /* border: 1px solid #000; */
+}
+.git {
+    /* border: 1px solid #000; */
+}
+.block1 {
+}
+.footer-block2 {
+    display: flex;
+    align-items: center;
+    
+    height: 50px;
+    width: 211px;
+}
+.text {
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgb(255, 255, 255);
+}
+.rss {
+    align-self: center;
+    position: relative;
+    left: 11px;
+}
+
+.footer-block3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 209px;
+    /* border: 2px solid rgb(30, 15, 170); */
+    
+    
+}
+.img-block3 {
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.img-1 {
+    border: 1px solid #000;
+    background-image: url('./assets/svg/insta.svg');
+}
+.img-2 {
+    border: 1px solid #000;
+    background-image: url('./assets/svg/facebook.svg');
+}
+.img-3 {
+    border: 1px solid #000;
+    background-image: url('./assets/svg/twit.svg');
+}
+.img-4 {
+    border: 1px solid #000;
+    background-image: url('./assets/svg/pint.svg');
+}
